@@ -32,7 +32,7 @@ if (((!isset($_GET["site"])) || (!isset($_GET["user"]))) || ((strlen($_GET["site
 	exit (0);
 	}
 
-include  './phpqrcode.php5';
+include  './phpqrcode.php';
 // sanitize the input
 $site = preg_replace( "/[^0-9 _a-zA-Z\.-]/", '', substr($_GET["site"],0,64));
 $user = preg_replace( "/[^0-9 _a-zA-Z\.-]/", '', substr($_GET["user"],0,64));
