@@ -1,4 +1,5 @@
 uses http://sourceforge.net/projects/phpqrcode/ for qr code generation - LGPLv3
+
 uses https://www.cnysupport.com/ga.txt for computation - GPL v3
 
 create QR Code for HOTP Google Authenticator without using google charts API
